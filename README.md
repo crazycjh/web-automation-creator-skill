@@ -31,35 +31,6 @@ git clone https://github.com/crazycjh/web-automation-creator-skill.git
 cp -r web-automation-creator-skill/web-automation-skill-creator $HOME/.kiro/workspace/skills/
 ```
 
-#### Claude Desktop (with MCP)
-```bash
-git clone https://github.com/crazycjh/web-automation-creator-skill.git
-# Copy to your MCP skills path (check claude_desktop_config.json)
-cp -r web-automation-creator-skill/web-automation-skill-creator [your-mcp-skills-path]/
-```
-
-#### Cursor / Other Tools
-```bash
-git clone https://github.com/crazycjh/web-automation-creator-skill.git
-# Copy to your tool's skills directory (check documentation)
-cp -r web-automation-creator-skill/web-automation-skill-creator [your-skills-path]/
-```
-
-### Using .skill Package
-
-If a `.skill` package is available in releases, extract it directly:
-
-```bash
-# Download from releases
-wget https://github.com/crazycjh/web-automation-creator-skill/releases/download/v1.0.0/web-automation-skill-creator.skill
-
-# Extract to your tool's skills directory
-# For OpenClaw:
-unzip web-automation-skill-creator.skill -d $HOME/.openclaw/workspace/skills/web-automation-skill-creator
-
-# For Kiro CLI:
-unzip web-automation-skill-creator.skill -d $HOME/.kiro/workspace/skills/web-automation-skill-creator
-```
 
 ### Verify Installation
 
@@ -83,13 +54,10 @@ The AI will automatically use this meta-skill to guide you through:
 3. **Optimization** - Finding efficient selectors and snapshot strategies
 4. **Creation** - Generating skill files
 5. **Testing** - Validating the automation
-6. **Packaging** - Creating a distributable .skill file
 
 ## Requirements
 
 - OpenClaw or Kiro CLI with browser automation support
-- Python 3 (for skill packaging scripts)
-- Node.js with npm (for accessing skill-creator tools)
 
 ## File Structure
 
@@ -141,19 +109,11 @@ Contributions are welcome! If you:
 
 Please open an issue or submit a pull request on [GitHub](https://github.com/crazycjh/web-automation-creator-skill).
 
-## License
-
-MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Support
 
 - **Issues:** [GitHub Issues](https://github.com/crazycjh/web-automation-creator-skill/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/crazycjh/web-automation-creator-skill/discussions)
-
-## Related
-
-Skills created using this meta-skill:
-- [Add your created skills here]
 
 ---
 
