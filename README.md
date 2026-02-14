@@ -1,5 +1,7 @@
 # Web Automation Creator Skill
 
+![Web Automation Creator Skill](img.png)
+
 A meta-skill that guides AI assistants through creating optimized, reusable web automation skills.
 
 **Compatible with:** OpenClaw, Kiro CLI, Claude Desktop, Cursor, and other AI assistants with skill support.
